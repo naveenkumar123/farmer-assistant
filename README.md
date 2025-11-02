@@ -145,6 +145,8 @@ You can either run the app in "serve" mode for development or "deploy" it for a 
 
 After running either command, Modal will output a URL (e.g., `https://your-username--farmer-assistant-gradio-app.modal.run`) where you can access the Gradio UI.
 
+Deployed application :  [https://naveenkumar123-application--farmer-assistant-gradio-app.modal.run](https://naveenkumar123-application--farmer-assistant-gradio-app.modal.run/)
+
 -----
 
 ## ❓ How to Use

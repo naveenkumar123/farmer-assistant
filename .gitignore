@@ -190,7 +190,6 @@ scraper_cache/
 # WandB local sync data.
 wandb/
 
-.envsrc/data/*.pkl
+
 src/data/chroma_database/
-src/data/*.pkl
 src/data/chroma_database/

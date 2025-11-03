@@ -1,4 +1,4 @@
-# 🌾 Farmer Query Assistant (RAG)
+# 🌾 Farmer Query Assistant (RAG + Finetuned model)
 This application is designed to provide accurate and instant answers to farmer queries, trained on valuable Kisan Call Center (KCC) data. This project implements a specialized **Farmer Query Assistant** using a Retrieval-Augmented Generation (RAG) architecture. It is built to answer questions related to agriculture and horticulture, leveraging a fine-tuned LLM and a vector database for context-aware responses.
 
 The entire application is packaged for serverless GPU deployment using **[Modal](https://modal.com/)**.

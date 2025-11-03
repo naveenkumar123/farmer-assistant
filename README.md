@@ -61,7 +61,7 @@ The application follows a RAG pipeline with strict guardrails:
   * **Deployment & Infrastructure:** [Modal](https://modal.com/)
   * **Web UI:** [Gradio](https://www.gradio.app/)
   * **LLM:** `meta-llama/Meta-Llama-3.1-8B`
-  * **Fine-tuning:** `peft` (adapters loaded from `naveenng10/farmer-assistant`)
+  * **Fine-tuning:** `peft` (adapters loaded from  [`naveenng10/farmer-assistant`](https://huggingface.co/naveenng10/farmer-assistant))
   * **Quantization:** `bitsandbytes`
   * **Core AI/ML:** `torch`, `transformers`, `accelerate`
   * **Vector Database (RAG):** `chromadb`

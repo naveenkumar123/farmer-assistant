@@ -47,7 +47,7 @@ LORA_DROPOUT = 0.1
 QUANT_4_BIT = True
 
 # Hyperparameters for Training
-EPOCHS = 1 # you can do more epochs if you wish, but only 1 is needed - more is probably overkill
+EPOCHS = 1 
 BATCH_SIZE = 4 # on an A100 box this can go up to 16
 GRADIENT_ACCUMULATION_STEPS = 1 # improve memory efficiency and stabilize training in neural networks by accumulating gradients over multiple batches before updating the model parameters
 LEARNING_RATE = 1e-4 # How much the small LoRA adaptation layers are adjusted during each training step
@@ -67,7 +67,7 @@ tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, trust_remote_code=True)
 if torch.backends.mps.is_available():
     device = "mps"
 else:
-    device = "cpu"
+    device = "cpu" # OR cuda for nvidia 
 
 class FinetuneModel:
     

@@ -5,12 +5,6 @@
 @date: 1-10-2025
 """
 
-
-"""
-@author: Naveen N G
-@date: 28-10-2025
-"""
-
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
